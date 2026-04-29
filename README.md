@@ -1,4 +1,18 @@
-# edhr-automation-pipeline
-Python-based pipeline for automated assembly of electronic Device History Records (eDHRs) from multi-source SMT manufacturing data.
+Semi-Automated eDHR Assembly Pipeline
 
-This repository contains the Python implementation of two eDHR automation pipelines developed for a senior design project. Input data files are not included due to confidentiality. Directory paths should be configured locally before running.
+This repository contains a Python-based pipeline for assembling electronic Device History Records (eDHRs) from multi-source SMT manufacturing data.
+
+Supported Inputs:
+- AOI XML
+- AXI XML
+- Flying Probe (.ngdx)
+- MES Board History (Excel)
+  
+Workflow:
+i) User selects input files
+ii) Data is parsed and standardized
+iii) eDHR is assembled into a unified schema
+
+Outputs generated:
+JSON record
+DOCX report
