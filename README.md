@@ -9,6 +9,7 @@ Supported Data Sources:
 - MES Board History Excel
 
 Workflow:
+
 i) Files are placed into a structured incoming/ directory
 
 ii) When main.py is run, the system automatically:
