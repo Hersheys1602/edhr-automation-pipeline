@@ -15,6 +15,7 @@ ii) When main.py is run, the system automatically:
   - parses and standardizes data
   - associates data by serial number
   - Metadata tracks completeness across sources
+    
 iii) When all required inputs are present, the system:
   - assembles the eDHR
   - generates JSON and DOCX outputs
